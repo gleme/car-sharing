@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost/car_sharing?createDatabaseIfNotExist=true&useSSL=false
+    username: root
